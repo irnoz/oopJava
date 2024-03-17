@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="second-lab-extended:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/second_lab_extended_jar</output-path>
+    <root id="archive" name="second-lab-extended.jar">
+      <element id="module-output" name="second-lab-extended" />
+    </root>
+  </artifact>
+</component>
