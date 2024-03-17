@@ -19,7 +19,7 @@ public class Main {
 
         // Counter Class
 
-        System.out.println(Counter.getOccurrencesOf('l', "helloworldbloble"));
+        System.out.println(Counter.getOccurrencesOf('l', "hello world"));
     }
 
 }
