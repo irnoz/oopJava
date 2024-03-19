@@ -12,8 +12,8 @@ public class Person {
         this.age = age;
     }
 
-    void setAgeFromString(String strAge) {
-        age = Integer.valueOf(strAge);
+    void setAgeFromString(String ageString) {
+        age = Integer.valueOf(ageString);
     }
 
     String sayMyName(int nTimes) {
@@ -22,22 +22,6 @@ public class Person {
             sb.append(name + " " + age + '\n');
         }
         return sb.toString();
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     @Override

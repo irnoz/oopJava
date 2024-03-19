@@ -15,6 +15,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        // Class Person
         Person jonDoe = new Person("Jon Doe", 35);
         System.out.println(jonDoe.toString());
 
@@ -23,6 +24,7 @@ public class Main {
 
         System.out.println(jonDoe.sayMyName(3));
 
+        // Print Pyramid
         char symbol = '*';
         int height = 5;
         printPyramid(symbol, height);
