@@ -7,21 +7,18 @@ public class Main {
 
         System.out.println(employee);
 
-        StringBuilder sb = new StringBuilder();
-
         String hasMoreThanAverage = String
                 .format("%s has %s than the average salary.\n",
                         employee.getName(),
                         (statistic.hasMoreThanTheAverage() ? "more" : "less"));
 
+        System.out.println(hasMoreThanAverage);
+
         String yearlySalary = String
                 .format("%s yearly salary is %.2f",
                         employee.getGender() == Employee.Gender.MALE ? "His" : "Her",
                         statistic.getYearlySalary());
-
-        sb.append(hasMoreThanAverage);
-        sb.append(yearlySalary);
-
-        System.out.println(sb);
+        
+        System.out.println(yearlySalary);
     }
 }
