@@ -4,11 +4,6 @@ import org.tsu.interfaces.Animals.*;
 import java.util.Random;
 
 public class SimulateBuyingAnimals implements SimulateBuyingAnimalsInterface {
-    /**
-     *
-     * @param animalsCount how many animals should be bought
-     * @return array of animals that were bought
-     */
     @Override
     public AnimalInterface[] buyAnimals(int animalsCount) {
         AnimalInterface[] animals = new AnimalInterface[animalsCount];
