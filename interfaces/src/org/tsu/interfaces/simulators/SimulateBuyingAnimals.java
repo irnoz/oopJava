@@ -1,4 +1,4 @@
-package org.tsu.interfaces.simulator;
+package org.tsu.interfaces.simulators;
 
 import org.tsu.interfaces.Animals.*;
 import java.util.Random;

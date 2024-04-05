@@ -1,4 +1,4 @@
-package org.tsu.interfaces.executor;
+package org.tsu.interfaces.executors;
 
 import org.tsu.interfaces.Animals.AnimalInterface;
 

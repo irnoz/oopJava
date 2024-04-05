@@ -1,8 +1,8 @@
 package org.tsu.interfaces;
 
 import org.tsu.interfaces.Animals.*;
-import org.tsu.interfaces.executor.*;
-import org.tsu.interfaces.simulator.*;
+import org.tsu.interfaces.executors.*;
+import org.tsu.interfaces.simulators.*;
 
 public class Main {
     public static void main(String[] args) {
